@@ -7,6 +7,8 @@ header {
 }
 
 .circle {
+	width: 100%;
+	height: auto;
 	max-width: 150px;
 	margin: 0 auto;
 	display: block;
@@ -16,38 +18,11 @@ header {
 	text-align: center;
 }
 
-#winter {
-	background: url('images/circle.gif') no-repeat;
-	width: 200px;
-	height: 200px;
-}
-
-#sky {
-	background: url('images/earth-circles-sm.jpg') no-repeat 0 0;
-	width: 800px;
-	height: 800px;
-}
-
-#horizon {
-	background: url('images/earth-circles-sm.jpg') no-repeat 0 0;
-	width: 800px;
-	height: 800px;
-}
-
-#sunset {
-	background: url('images/earth-circles-sm.jpg') no-repeat 0 0;
-	width: 800px;
-	height: 800px;
-}
-
-#hurricane {
-	background: url('images/earth-circles-sm.jpg') no-repeat 0 0;
-	width: 800px;
-	height: 800px;
-}
-
-#moonrise {
-	background: url('images/earth-circles-sm.jpg') no-repeat 0 0;
-	width: 800px;
-	height: 800px;
+@media(min-width: 1200px) {
+	h3 {
+		margin-top: 0;
+	}
+	.options section {
+		text-align: left;
+	}
 }
