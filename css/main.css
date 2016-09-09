@@ -1,0 +1,53 @@
+/* CSS stylesheet */
+header {
+	background: url(../images/skylinesm.jpg) no-repeat;
+	background-position: center center;
+	background-size: cover;
+	height: 300px;
+}
+
+.circle {
+	max-width: 150px;
+	margin: 0 auto;
+	display: block;
+}
+
+.options section {
+	text-align: center;
+}
+
+#winter {
+	background: url('images/circle.gif') no-repeat;
+	width: 200px;
+	height: 200px;
+}
+
+#sky {
+	background: url('images/earth-circles-sm.jpg') no-repeat 0 0;
+	width: 800px;
+	height: 800px;
+}
+
+#horizon {
+	background: url('images/earth-circles-sm.jpg') no-repeat 0 0;
+	width: 800px;
+	height: 800px;
+}
+
+#sunset {
+	background: url('images/earth-circles-sm.jpg') no-repeat 0 0;
+	width: 800px;
+	height: 800px;
+}
+
+#hurricane {
+	background: url('images/earth-circles-sm.jpg') no-repeat 0 0;
+	width: 800px;
+	height: 800px;
+}
+
+#moonrise {
+	background: url('images/earth-circles-sm.jpg') no-repeat 0 0;
+	width: 800px;
+	height: 800px;
+}
