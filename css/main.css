@@ -6,6 +6,22 @@ header {
 	height: 300px;
 }
 
+.banner-txt {
+	font: 270% 'Open Sans Condensed', sans-serif;
+}
+
+.landing-hdr {
+	font: 180% 'Lora', serif;	
+}
+
+article p, .landing-hdr {
+	margin-left: 1%;
+}
+
+.image-row {
+	margin-bottom: 2%;
+}
+
 .circle {
 	width: 100%;
 	height: auto;
@@ -24,5 +40,13 @@ header {
 	}
 	.options section {
 		text-align: left;
+	}
+}
+
+@media (max-width: 767px) {
+	.img-responsive {
+		max-width: 50%;
+		min-width: 300px;
+		margin-bottom: 1%;
 	}
 }
