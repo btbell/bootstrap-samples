@@ -22,6 +22,11 @@ article p, .landing-hdr {
 	margin-bottom: 2%;
 }
 
+.figure-caption {
+	font: 85% 'Open Sans Condensed', sans-serif;
+	margin-bottom: 1%;
+}
+
 .circle {
 	width: 100%;
 	height: auto;
