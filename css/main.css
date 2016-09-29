@@ -48,20 +48,20 @@ article p, .landing-hdr {
 }
 
 .rotator {
-	margin-top: 1em;
+	margin: 2em 0;
+	font: italic 85% "Segoe UI", Helvetica, sans-serif;
 }
 
-.rotator p {
-
-}
 
 @media(min-width: 1200px) {
 	h3 {
 		margin-top: 0;
 	}
+
 	.options section {
 		text-align: left;
 	}
+
 }
 
 @media (max-width: 767px) {
@@ -69,5 +69,9 @@ article p, .landing-hdr {
 		max-width: 50%;
 		min-width: 300px;
 		margin-bottom: 1%;
+	}
+
+	.rotator {
+		margin-left: 1%;
 	}
 }
