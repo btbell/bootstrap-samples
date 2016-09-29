@@ -39,6 +39,22 @@ article p, .landing-hdr {
 	text-align: center;
 }
 
+.content {
+	padding-top: 70px;
+}
+
+.intro {
+	
+}
+
+.rotator {
+	margin-top: 1em;
+}
+
+.rotator p {
+
+}
+
 @media(min-width: 1200px) {
 	h3 {
 		margin-top: 0;
